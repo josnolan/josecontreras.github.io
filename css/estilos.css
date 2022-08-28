@@ -1,0 +1,60 @@
+*
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+#header{
+    margin: 0;
+    padding: 10 px;
+    height: 90 px;  
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#header p{
+   
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+#header p a{
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+nav div.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin:0;
+    padding:30px;
+}
+
+nav div.menu ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav div.menu ul li a:hover {
+    background-color: white;
+    color: orange;
+}
+
+main{
+    margin: 0;
+    padding: 10 px;;  
+    background-color: yellow
+}
